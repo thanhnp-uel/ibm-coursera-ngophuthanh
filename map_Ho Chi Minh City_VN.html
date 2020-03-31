@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2da9a25c799b46128fb1c4af627955f9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_2da9a25c799b46128fb1c4af627955f9" ></div>
+        
+</body>
+<script>    
+    
+            var map_2da9a25c799b46128fb1c4af627955f9 = L.map(
+                "map_2da9a25c799b46128fb1c4af627955f9",
+                {
+                    center: [10.6497452, 106.76197937344351],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_51b0dd71c02e45148de842c8e9aa8ddc = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+            var circle_marker_5929096406f8470ba8a4e30ae488fec6 = L.circleMarker(
+                [10.679220000000043, 106.57654000000008],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_cf08565ee63c48d4afff4eab208d21eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb66689eac764c1cbdd9b28574fdaa59 = $(`<div id="html_fb66689eac764c1cbdd9b28574fdaa59" style="width: 100.0%; height: 100.0%;">Bình Chánh District</div>`)[0];
+            popup_cf08565ee63c48d4afff4eab208d21eb.setContent(html_fb66689eac764c1cbdd9b28574fdaa59);
+        
+
+        circle_marker_5929096406f8470ba8a4e30ae488fec6.bindPopup(popup_cf08565ee63c48d4afff4eab208d21eb)
+        ;
+
+        
+    
+    
+            var circle_marker_9b437d3c6d7e4c538f1aed17e2e3a3db = L.circleMarker(
+                [10.75908000000004, 106.59206000000006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_2b66087b21094ad8b02f15a4e6eb13ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6406c50c3d84e8ca3b3498656043cfd = $(`<div id="html_b6406c50c3d84e8ca3b3498656043cfd" style="width: 100.0%; height: 100.0%;">Bình Tân District, Ho Chi Minh City</div>`)[0];
+            popup_2b66087b21094ad8b02f15a4e6eb13ac.setContent(html_b6406c50c3d84e8ca3b3498656043cfd);
+        
+
+        circle_marker_9b437d3c6d7e4c538f1aed17e2e3a3db.bindPopup(popup_2b66087b21094ad8b02f15a4e6eb13ac)
+        ;
+
+        
+    
+    
+            var circle_marker_746b0c31e9594253b939395e61136345 = L.circleMarker(
+                [10.805180000000064, 106.69280000000003],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_6150d1a9a6e94bfa83f1e6d0be7dbc7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d585e0253d8142fdab9cca8f38b056dd = $(`<div id="html_d585e0253d8142fdab9cca8f38b056dd" style="width: 100.0%; height: 100.0%;">Bình Thạnh District</div>`)[0];
+            popup_6150d1a9a6e94bfa83f1e6d0be7dbc7d.setContent(html_d585e0253d8142fdab9cca8f38b056dd);
+        
+
+        circle_marker_746b0c31e9594253b939395e61136345.bindPopup(popup_6150d1a9a6e94bfa83f1e6d0be7dbc7d)
+        ;
+
+        
+    
+    
+            var circle_marker_f0daf44a451f438db1f9ab92773a8c7e = L.circleMarker(
+                [10.41566000000006, 106.96130000000005],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_6cfbe333d52844bd9542c58e0a7da24b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3d2ac3210fa4430ba2a404682aef616 = $(`<div id="html_a3d2ac3210fa4430ba2a404682aef616" style="width: 100.0%; height: 100.0%;">Cần Giờ District</div>`)[0];
+            popup_6cfbe333d52844bd9542c58e0a7da24b.setContent(html_a3d2ac3210fa4430ba2a404682aef616);
+        
+
+        circle_marker_f0daf44a451f438db1f9ab92773a8c7e.bindPopup(popup_6cfbe333d52844bd9542c58e0a7da24b)
+        ;
+
+        
+    
+    
+            var circle_marker_162b69d5998441af92b327030537f4ff = L.circleMarker(
+                [10.977340000000027, 106.50223000000005],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_5af0f004da5047859563fc92af8d49c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e181b68743cc474da57197a8ec03006e = $(`<div id="html_e181b68743cc474da57197a8ec03006e" style="width: 100.0%; height: 100.0%;">Củ Chi District</div>`)[0];
+            popup_5af0f004da5047859563fc92af8d49c8.setContent(html_e181b68743cc474da57197a8ec03006e);
+        
+
+        circle_marker_162b69d5998441af92b327030537f4ff.bindPopup(popup_5af0f004da5047859563fc92af8d49c8)
+        ;
+
+        
+    
+    
+            var circle_marker_1e9dfa756a1a42dcbf6072f88a75f3eb = L.circleMarker(
+                [10.780950000000075, 106.69911000000008],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_7a7908de782045549cc5e0d16892547a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_974b7c6fc98343d58b42bdcc55f368ca = $(`<div id="html_974b7c6fc98343d58b42bdcc55f368ca" style="width: 100.0%; height: 100.0%;">District 1, Ho Chi Minh City</div>`)[0];
+            popup_7a7908de782045549cc5e0d16892547a.setContent(html_974b7c6fc98343d58b42bdcc55f368ca);
+        
+
+        circle_marker_1e9dfa756a1a42dcbf6072f88a75f3eb.bindPopup(popup_7a7908de782045549cc5e0d16892547a)
+        ;
+
+        
+    
+    
+            var circle_marker_9d88274f41d34421a7d6e18d485a7b61 = L.circleMarker(
+                [10.791990000000055, 106.74985000000004],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_d15a3ce5848a475eb4e5e2b890d045b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98d0cc4131c04e1e8866782906577fbd = $(`<div id="html_98d0cc4131c04e1e8866782906577fbd" style="width: 100.0%; height: 100.0%;">District 2, Ho Chi Minh City</div>`)[0];
+            popup_d15a3ce5848a475eb4e5e2b890d045b8.setContent(html_98d0cc4131c04e1e8866782906577fbd);
+        
+
+        circle_marker_9d88274f41d34421a7d6e18d485a7b61.bindPopup(popup_d15a3ce5848a475eb4e5e2b890d045b8)
+        ;
+
+        
+    
+    
+            var circle_marker_f47bd0ad4d89400f8a1d37be943dab27 = L.circleMarker(
+                [10.775660000000073, 106.68674000000004],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_36b3bc8d50324216ab30243010bd3ec9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36d69aa076d3451b86b6cc6317fcc60f = $(`<div id="html_36d69aa076d3451b86b6cc6317fcc60f" style="width: 100.0%; height: 100.0%;">District 3, Ho Chi Minh City</div>`)[0];
+            popup_36b3bc8d50324216ab30243010bd3ec9.setContent(html_36d69aa076d3451b86b6cc6317fcc60f);
+        
+
+        circle_marker_f47bd0ad4d89400f8a1d37be943dab27.bindPopup(popup_36b3bc8d50324216ab30243010bd3ec9)
+        ;
+
+        
+    
+    
+            var circle_marker_b19e69b6a4f1496586fab6cdf2f2b81b = L.circleMarker(
+                [10.766700000000071, 106.70647000000008],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_bb168951d3914910a1ab72fd252119ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74e23133c0d245f68f51880e3c413902 = $(`<div id="html_74e23133c0d245f68f51880e3c413902" style="width: 100.0%; height: 100.0%;">District 4, Ho Chi Minh City</div>`)[0];
+            popup_bb168951d3914910a1ab72fd252119ac.setContent(html_74e23133c0d245f68f51880e3c413902);
+        
+
+        circle_marker_b19e69b6a4f1496586fab6cdf2f2b81b.bindPopup(popup_bb168951d3914910a1ab72fd252119ac)
+        ;
+
+        
+    
+    
+            var circle_marker_dca3654f5bca415d8fefa6a9d7320fc0 = L.circleMarker(
+                [10.755690000000072, 106.66637000000009],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_7853a248f97a4666bbbe433a37a619c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_598a87b8f59845c5999b437ebcf91673 = $(`<div id="html_598a87b8f59845c5999b437ebcf91673" style="width: 100.0%; height: 100.0%;">District 5, Ho Chi Minh City</div>`)[0];
+            popup_7853a248f97a4666bbbe433a37a619c7.setContent(html_598a87b8f59845c5999b437ebcf91673);
+        
+
+        circle_marker_dca3654f5bca415d8fefa6a9d7320fc0.bindPopup(popup_7853a248f97a4666bbbe433a37a619c7)
+        ;
+
+        
+    
+    
+            var circle_marker_c991f6abf56441478540041b8308e395 = L.circleMarker(
+                [10.745780000000025, 106.64777000000004],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_630044ec7ece4a2e805c326855994207 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdaa0b4c5f294d08940d6256b7cdca62 = $(`<div id="html_bdaa0b4c5f294d08940d6256b7cdca62" style="width: 100.0%; height: 100.0%;">District 6, Ho Chi Minh City</div>`)[0];
+            popup_630044ec7ece4a2e805c326855994207.setContent(html_bdaa0b4c5f294d08940d6256b7cdca62);
+        
+
+        circle_marker_c991f6abf56441478540041b8308e395.bindPopup(popup_630044ec7ece4a2e805c326855994207)
+        ;
+
+        
+    
+    
+            var circle_marker_dcb8cc9c4fe94c1fb88ace112aa7ba8b = L.circleMarker(
+                [10.70515000000006, 106.73748000000006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_2289a5cd4040414ea529e4c839c713aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53de35b789174cdabcdc75573cb6d0dd = $(`<div id="html_53de35b789174cdabcdc75573cb6d0dd" style="width: 100.0%; height: 100.0%;">District 7, Ho Chi Minh City</div>`)[0];
+            popup_2289a5cd4040414ea529e4c839c713aa.setContent(html_53de35b789174cdabcdc75573cb6d0dd);
+        
+
+        circle_marker_dcb8cc9c4fe94c1fb88ace112aa7ba8b.bindPopup(popup_2289a5cd4040414ea529e4c839c713aa)
+        ;
+
+        
+    
+    
+            var circle_marker_1242de5e33334f7fadf1c9a02e4bea0a = L.circleMarker(
+                [10.74771000000004, 106.66334000000006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_c7923ec2c53e4300ad21de60c971ff29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcd1723136274bf9a23d7e64d6344a14 = $(`<div id="html_fcd1723136274bf9a23d7e64d6344a14" style="width: 100.0%; height: 100.0%;">District 8, Ho Chi Minh City</div>`)[0];
+            popup_c7923ec2c53e4300ad21de60c971ff29.setContent(html_fcd1723136274bf9a23d7e64d6344a14);
+        
+
+        circle_marker_1242de5e33334f7fadf1c9a02e4bea0a.bindPopup(popup_c7923ec2c53e4300ad21de60c971ff29)
+        ;
+
+        
+    
+    
+            var circle_marker_3771ed6dfcbd42c8a1584ab18c4c8a55 = L.circleMarker(
+                [10.820040000000063, 106.83185000000009],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_9950fc1175e14b04ac3925e579afab32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6dec2ebece84281a2c1945e028c5e18 = $(`<div id="html_e6dec2ebece84281a2c1945e028c5e18" style="width: 100.0%; height: 100.0%;">District 9, Ho Chi Minh City</div>`)[0];
+            popup_9950fc1175e14b04ac3925e579afab32.setContent(html_e6dec2ebece84281a2c1945e028c5e18);
+        
+
+        circle_marker_3771ed6dfcbd42c8a1584ab18c4c8a55.bindPopup(popup_9950fc1175e14b04ac3925e579afab32)
+        ;
+
+        
+    
+    
+            var circle_marker_84a8e1be23934a36afe6d00222b1640b = L.circleMarker(
+                [10.768670000000043, 106.66564000000005],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_4a0e3fa8fb8b4edaa9679a028a478aca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e07df215fbc2486a91a448305995be9a = $(`<div id="html_e07df215fbc2486a91a448305995be9a" style="width: 100.0%; height: 100.0%;">District 10, Ho Chi Minh City</div>`)[0];
+            popup_4a0e3fa8fb8b4edaa9679a028a478aca.setContent(html_e07df215fbc2486a91a448305995be9a);
+        
+
+        circle_marker_84a8e1be23934a36afe6d00222b1640b.bindPopup(popup_4a0e3fa8fb8b4edaa9679a028a478aca)
+        ;
+
+        
+    
+    
+            var circle_marker_972f5b7605ce46448ad47ae0f7bd5949 = L.circleMarker(
+                [10.763080000000059, 106.64294000000007],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_87c252cb74694fafa827c4ae3f255ccf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2dfd5653112d403bb6e3406793668da9 = $(`<div id="html_2dfd5653112d403bb6e3406793668da9" style="width: 100.0%; height: 100.0%;">District 11, Ho Chi Minh City</div>`)[0];
+            popup_87c252cb74694fafa827c4ae3f255ccf.setContent(html_2dfd5653112d403bb6e3406793668da9);
+        
+
+        circle_marker_972f5b7605ce46448ad47ae0f7bd5949.bindPopup(popup_87c252cb74694fafa827c4ae3f255ccf)
+        ;
+
+        
+    
+    
+            var circle_marker_84b8f8b40cf14a5ea3290cc5c4b1f98f = L.circleMarker(
+                [10.850440000000049, 106.62731000000008],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_47270b7e57434635ba0d05dd889cbec8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70934910576240618c801832da40728a = $(`<div id="html_70934910576240618c801832da40728a" style="width: 100.0%; height: 100.0%;">District 12, Ho Chi Minh City</div>`)[0];
+            popup_47270b7e57434635ba0d05dd889cbec8.setContent(html_70934910576240618c801832da40728a);
+        
+
+        circle_marker_84b8f8b40cf14a5ea3290cc5c4b1f98f.bindPopup(popup_47270b7e57434635ba0d05dd889cbec8)
+        ;
+
+        
+    
+    
+            var circle_marker_3178ee2c86784202983a269f42aec2c6 = L.circleMarker(
+                [10.833790000000022, 106.66557000000006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_749f3e0484c34dc7898886077dbf7975 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edcc59a9767e4e56a088340caad2bf12 = $(`<div id="html_edcc59a9767e4e56a088340caad2bf12" style="width: 100.0%; height: 100.0%;">Gò Vấp District</div>`)[0];
+            popup_749f3e0484c34dc7898886077dbf7975.setContent(html_edcc59a9767e4e56a088340caad2bf12);
+        
+
+        circle_marker_3178ee2c86784202983a269f42aec2c6.bindPopup(popup_749f3e0484c34dc7898886077dbf7975)
+        ;
+
+        
+    
+    
+            var circle_marker_cdfcf695ae9341418f7207f248c22a31 = L.circleMarker(
+                [10.888360000000034, 106.59640000000007],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_aa39604af1124f69bb5594bcbea0d4dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_606628d4a38548d7ad51995e8a027856 = $(`<div id="html_606628d4a38548d7ad51995e8a027856" style="width: 100.0%; height: 100.0%;">Hóc Môn District</div>`)[0];
+            popup_aa39604af1124f69bb5594bcbea0d4dc.setContent(html_606628d4a38548d7ad51995e8a027856);
+        
+
+        circle_marker_cdfcf695ae9341418f7207f248c22a31.bindPopup(popup_aa39604af1124f69bb5594bcbea0d4dc)
+        ;
+
+        
+    
+    
+            var circle_marker_9cb6389ff3b4419db364fe43e9f1b280 = L.circleMarker(
+                [10.701530000000048, 106.73818000000006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_4e7843abc9c04869b5c76820444d6a2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67918fb8d2a04a5f9ea799b19827a6d2 = $(`<div id="html_67918fb8d2a04a5f9ea799b19827a6d2" style="width: 100.0%; height: 100.0%;">Nhà Bè District</div>`)[0];
+            popup_4e7843abc9c04869b5c76820444d6a2f.setContent(html_67918fb8d2a04a5f9ea799b19827a6d2);
+        
+
+        circle_marker_9cb6389ff3b4419db364fe43e9f1b280.bindPopup(popup_4e7843abc9c04869b5c76820444d6a2f)
+        ;
+
+        
+    
+    
+            var circle_marker_1d90528da8c04b7f983591ef70d795a9 = L.circleMarker(
+                [10.795650000000023, 106.67464000000007],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_188d8743776f4d039b567c2bf797aa22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cce1e552f6c403384f8c7c6cc005a0f = $(`<div id="html_5cce1e552f6c403384f8c7c6cc005a0f" style="width: 100.0%; height: 100.0%;">Phú Nhuận District</div>`)[0];
+            popup_188d8743776f4d039b567c2bf797aa22.setContent(html_5cce1e552f6c403384f8c7c6cc005a0f);
+        
+
+        circle_marker_1d90528da8c04b7f983591ef70d795a9.bindPopup(popup_188d8743776f4d039b567c2bf797aa22)
+        ;
+
+        
+    
+    
+            var circle_marker_42df3724a4c64f23bdf20e13243c14f1 = L.circleMarker(
+                [10.75908000000004, 106.59206000000006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_363d339fa6da4e64874e580141f4e466 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8fa0ef7d79d4c0cb00044f983e8f6d7 = $(`<div id="html_d8fa0ef7d79d4c0cb00044f983e8f6d7" style="width: 100.0%; height: 100.0%;">Tân Bình District</div>`)[0];
+            popup_363d339fa6da4e64874e580141f4e466.setContent(html_d8fa0ef7d79d4c0cb00044f983e8f6d7);
+        
+
+        circle_marker_42df3724a4c64f23bdf20e13243c14f1.bindPopup(popup_363d339fa6da4e64874e580141f4e466)
+        ;
+
+        
+    
+    
+            var circle_marker_5aa7c7033d084330901d7330efbe9aff = L.circleMarker(
+                [10.782320000000027, 106.63667000000004],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_b0ff96d2082f47c4ae9bbc8bb6260745 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2bbb93a59ac4245a0a2acfc1236e651 = $(`<div id="html_a2bbb93a59ac4245a0a2acfc1236e651" style="width: 100.0%; height: 100.0%;">Tân Phú District, Ho Chi Minh City</div>`)[0];
+            popup_b0ff96d2082f47c4ae9bbc8bb6260745.setContent(html_a2bbb93a59ac4245a0a2acfc1236e651);
+        
+
+        circle_marker_5aa7c7033d084330901d7330efbe9aff.bindPopup(popup_b0ff96d2082f47c4ae9bbc8bb6260745)
+        ;
+
+        
+    
+    
+            var circle_marker_2dbc7043237b4f62b0c1b5b7b4f0ab2a = L.circleMarker(
+                [10.84626000000003, 106.76992000000007],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2da9a25c799b46128fb1c4af627955f9);
+        
+    
+        var popup_abe4227bd0eb47dcbb2b6b40426cca75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1354393f66dc4483908ecc1c3b6cfa8e = $(`<div id="html_1354393f66dc4483908ecc1c3b6cfa8e" style="width: 100.0%; height: 100.0%;">Thủ Đức District</div>`)[0];
+            popup_abe4227bd0eb47dcbb2b6b40426cca75.setContent(html_1354393f66dc4483908ecc1c3b6cfa8e);
+        
+
+        circle_marker_2dbc7043237b4f62b0c1b5b7b4f0ab2a.bindPopup(popup_abe4227bd0eb47dcbb2b6b40426cca75)
+        ;
+
+        
+    
+</script>
